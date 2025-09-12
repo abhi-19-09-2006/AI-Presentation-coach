@@ -1,0 +1,55 @@
+# AI Coach - Professional Voice Analysis Platform
+# Enhanced requirements with specific versions for stability
+
+# Core Streamlit and UI
+streamlit>=1.28.0
+plotly>=5.15.0
+numpy>=1.24.0
+pandas>=2.0.0
+Pillow>=10.0.0
+
+# Audio Processing and Speech Recognition
+openai-whisper>=20230918
+SpeechRecognition>=3.10.0
+pyaudio>=0.2.11
+librosa>=0.10.0
+pydub>=0.25.1
+
+# Text Analysis and NLP
+nltk>=3.8.1
+language-tool-python>=2.8.0
+
+# PDF Generation
+reportlab>=4.0.0
+
+# Text-to-Speech (Optional)
+gtts>=2.3.0
+
+# Real-time Analysis and Performance
+streamlit-lottie>=0.0.5
+streamlit-webrtc>=0.47.0
+
+# Face Analysis Dependencies
+deepface>=0.0.79
+opencv-python>=4.8.0
+tensorflow>=2.13.0
+tf-keras>=2.13.0
+
+# System Monitoring and Optimization
+psutil>=5.9.0
+
+# Audio Recording Components
+streamlit-audiorecorder>=0.0.5
+# Alternative audio recording options:
+# streamlit-webrtc>=0.47.0  # For advanced real-time features
+
+# Optional Dependencies for Enhanced Features
+# Uncomment if needed:
+# torch>=2.0.0  # For advanced ML features
+# transformers>=4.30.0  # For advanced NLP
+# scikit-learn>=1.3.0  # For ML analytics
+
+# Development and Testing (Optional)
+# pytest>=7.4.0
+# black>=23.0.0
+# flake8>=6.0.0
