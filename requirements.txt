@@ -1,0 +1,59 @@
+# AI Coach Pro - Professional Presentation Analysis Platform
+# Complete requirements for live video face analysis and subscription management
+
+# Core Streamlit and UI
+streamlit>=1.28.0
+plotly>=5.15.0
+numpy>=1.24.0
+pandas>=2.0.0
+Pillow>=10.0.0
+
+# Face Analysis and Computer Vision
+deepface>=0.0.79
+opencv-python>=4.8.0
+tensorflow>=2.13.0
+tf-keras>=2.13.0
+
+# Database and Authentication
+sqlite3  # Built-in with Python
+
+# Security and Hashing
+hashlib  # Built-in with Python
+secrets  # Built-in with Python
+
+# Audio Processing and Speech Recognition (Optional)
+openai-whisper>=20230918
+SpeechRecognition>=3.10.0
+pyaudio>=0.2.11
+librosa>=0.10.0
+pydub>=0.25.1
+
+# Text Analysis and NLP (Optional)
+nltk>=3.8.1
+language-tool-python>=2.8.0
+
+# PDF Generation (Optional)
+reportlab>=4.0.0
+
+# Text-to-Speech (Optional)
+gtts>=2.3.0
+
+# Real-time Analysis and Performance
+streamlit-lottie>=0.0.5
+streamlit-webrtc>=0.47.0
+
+# System Monitoring and Optimization
+psutil>=5.9.0
+
+# Audio Recording Components (Optional)
+streamlit-audiorecorder>=0.0.5
+
+# Additional ML and Analysis Libraries
+scikit-learn>=1.3.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Development and Testing (Optional)
+# pytest>=7.4.0
+# black>=23.0.0
+# flake8>=6.0.0
